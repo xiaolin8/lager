@@ -1,8 +1,8 @@
 package lager_test
 
 import (
-	"github.com/lexkong/lager"
-	"github.com/lexkong/lager/lagertest"
+	"github.com/xiaolin8/lager"
+	"github.com/xiaolin8/lager/lagertest"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

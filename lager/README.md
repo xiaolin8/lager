@@ -9,7 +9,7 @@ Instantiate a logger with the name of your component.
 
 ```go
 import (
-  "github.com/lexkong/lager"
+  "github.com/xiaolin8/lager"
 )
 
 logger := lager.NewLogger("my-app")

@@ -5,7 +5,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/lexkong/log/lager/color"
+	"github.com/xiaolin8/log/lager/color"
 )
 
 const logBufferSize = 1024

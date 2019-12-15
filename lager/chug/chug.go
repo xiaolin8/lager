@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lexkong/lager"
+	"github.com/xiaolin8/lager"
 )
 
 //Entry is a struct
