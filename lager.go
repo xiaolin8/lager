@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/xiaolin8/log/lager"
 	"gopkg.in/yaml.v2"
+	"lager/lager"
 )
 
 // constant values for logrotate parameters

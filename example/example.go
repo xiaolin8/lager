@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
+	log "lager"
 
-	"github.com/xiaolin8/log"
-	"github.com/xiaolin8/log/lager"
+	"lager/lager"
 )
 
 func main() {

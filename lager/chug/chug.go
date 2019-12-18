@@ -5,11 +5,10 @@ import (
 	"encoding/json"
 	"errors"
 	"io"
+	"lager/lager"
 	"strconv"
 	"strings"
 	"time"
-
-	"github.com/xiaolin8/lager"
 )
 
 //Entry is a struct
@@ -113,7 +112,7 @@ func convertLagerLog(lagerLog lager.LogFormat) (LogEntry, bool) {
 	return LogEntry{
 		Timestamp: time.Unix(0, int64(timestamp*1e9)),
 		LogLevel:  lagerLog.LogLevel,
-		Source:    lagerLog.Source,
+		Source:    lagerLog.File,
 		Message:   lagerLog.Message,
 		Session:   logSession,
 
