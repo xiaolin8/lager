@@ -1,4 +1,4 @@
-package log
+package lager
 
 import (
 	"fmt"

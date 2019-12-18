@@ -1,4 +1,4 @@
-package log
+package lager
 
 import (
 	"encoding/json"
@@ -69,7 +69,6 @@ func Initialize(writers, loggerLevel, loggerFile, rollingPolicy string, logForma
 
 	Logger = newLog(lag)
 	initLogRotate(logFilePath, lag)
-	return
 }
 
 // newLog new log
