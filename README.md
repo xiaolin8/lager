@@ -21,8 +21,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/xiaolin8/log"
-	"github.com/xiaolin8/log/lager"
+	"github.com/xiaolin8/lager"
+	"github.com/xiaolin8/lager/lager"
 )
 
 func main() {

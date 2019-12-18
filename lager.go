@@ -2,6 +2,7 @@ package lager
 
 import (
 	"encoding/json"
+	"github.com/xiaolin8/lager/lager"
 	"io/ioutil"
 	"log"
 	"os"
@@ -9,7 +10,6 @@ import (
 	"strings"
 
 	"gopkg.in/yaml.v2"
-	"lager/lager"
 )
 
 // constant values for logrotate parameters

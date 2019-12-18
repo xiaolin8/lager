@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"lager/lager"
+	"github.com/xiaolin8/lager/lager"
 )
 
 const (

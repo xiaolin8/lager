@@ -5,10 +5,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/xiaolin8/log/lager/color"
+	"github.com/xiaolin8/lager/lager/color"
 )
-
-const logBufferSize = 1024
 
 // A Sink represents a write destination for a Logger. It provides
 // a thread-safe interface for writing logs
